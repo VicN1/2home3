@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    color: #363853;
+    text-transform: capitalize;
+}
+
+.container {
+    padding: 50px 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 500;
+    color: #363853;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar:nth-child(1) {
+    color: #FF6838;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+section:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-btn {
+    width: 100px;
+    height: 40px;
+    background-color: #FF6838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.tit1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.dis-info {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.exp-btn {
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
+    background-color: #FF6838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+section:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 75px;
+}
+
+.tit2 {
+    width: 600px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.see-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6838;
+    color: white;
+    width: 175px;
+    height: 55px;
+    border-radius: 50px;
+    border-bottom-right-radius: 0;
+    font-size: 20px;
+}
+
+section:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.tit3 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.menu {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.men {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 250);
+    border-radius: 30px;
+}
+
+.food {
+    width: 410px;
+    height: 310px;
+    border-top-left-radius: 65px;
+}
+
+.menu-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+
+}
+
+.menu-tit {
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.next-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.time {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.next-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    border-bottom-right-radius: 0;
+    background-color: #FF6838;
+}
+
+section:nth-child(4) {
+    display: flex;
+    align-items: center;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.moblie-info {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    border-radius: 25px;
+    width: 1200px;
+    height: 260px;
+    background-color: #FF6838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tit4 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.sign {
+    outline: none;
+    border-radius: 100px;
+    width: 800px;
+    height: 70px;
+    padding: 0 24px;
+    border: none;
+    font-size: 18px;
+}
+
+.sign::placeholder {
+    font-size: 18px;
+}
+
+form {
+    offset: 0;
+    border-radius: 100px;
+    padding: 0 7px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub {
+    border: none;
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    font-size: 26px;
+    color: white;
+    background-color:#FF6838;
+}
